@@ -249,33 +249,7 @@
         // තත්පරයක් පාසා යාවත්කාලීන කිරීම
         updateCountdown();
         setInterval(updateCountdown, 1000);
-    </script>
-
-<script>
-document.addEventListener('contextmenu', e => { e.preventDefault(); alert('This Source Code cannot be copied ⚠️'); });
-document.addEventListener('copy', e => { e.preventDefault(); alert('This Source Code cannot be copied ⚠️'); });
-document.addEventListener('selectstart', e => e.preventDefault());
-
-document.onkeydown = function(e){
-  if(
-    e.keyCode == 123 || 
-    (e.ctrlKey && e.keyCode == 85) || 
-    (e.ctrlKey && e.keyCode == 83) || 
-    (e.ctrlKey && e.keyCode == 67) || 
-    (e.ctrlKey && e.shiftKey && e.keyCode == 73) || 
-    (e.ctrlKey && e.keyCode == 73) 
-  ){
-    alert('This Source Code cannot be copied ⚠️');
-    return false;
-  }
-}
-
-setInterval(function(){
-    if(window.outerWidth - window.innerWidth > 160 || window.outerHeight - window.innerHeight > 160){
-        document.body.innerHTML = "<h1 style='color:red;text-align:center;margin-top:20%;font-family:Arial'>⚠️ This Source Code cannot be copied ⚠️</h1>";
-    }
-}, 1000);
-</script>
+   
 
 
 </body>
